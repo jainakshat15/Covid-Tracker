@@ -1,0 +1,23 @@
+.Header{
+    height: 70px;
+    width: 90%;
+    background-color: #5800FF;
+    margin: auto;
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+.Header p{
+    color: white;
+    font-size: 15px;
+}
+@media screen and (max-width: 768px) {
+    .Header{
+        height: 50px;
+    }
+    .Header p{
+        font-size: 10px;
+    }
+}

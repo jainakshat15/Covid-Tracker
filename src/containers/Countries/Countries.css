@@ -1,0 +1,62 @@
+.countries-stats{
+    height: auto;
+    width: 100%;
+}
+
+h2{
+    font-weight: 700 !important;
+    font-family: 'Nunito';
+    margin-top: 80px;
+    text-align: center;
+    font-size: 2rem;
+    color: #E900FF;
+}
+
+.Filtering{
+    height: 30px;
+    width: 90%;
+    margin: auto;
+    margin-top: 40px;
+    display: flex;
+}
+
+.Filtering input{
+    height: 100%;
+    width: 70%;
+    padding-left: 20px;
+    background-color: #FFC600;
+    border-radius: 10px;
+}
+.Filtering input::placeholder{
+    color: black;
+    opacity: 0.9;
+}
+
+.Filtering .sort-by{
+    height: 100%;
+    width: calc(100% - 70% - 20px);
+    margin-left: 20px;
+    padding: 0 10px;
+    background-color: #ffc600;
+    border-radius: 5px;
+}
+@media screen and (max-width: 768px) {
+    .Filtering{
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    .Filtering input{
+        width: 90%;
+        font-size: 15px;
+    }
+    .Filtering .sort-by{
+        margin-top: 5px;
+        width: 80px;
+        margin-left: 0;
+        padding: 0 0;
+    }
+    .Filtering .sort-by option{
+        font-size: 15px;
+    }
+}

@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Nunito:ital,wght@1,600&display=swap');
+
+.Global{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Global .c1 .heading{
+    font-size: 50px;
+    color: #FFC600;
+    font-weight: 700 !important;
+    font-family: 'Nunito';
+    width: 100%;
+    text-align: center;
+    
+}
+@media screen and (max-width : 768px) {
+    .Global .c1 .heading{
+        font-size: 30px;
+    }
+    .Global .c1 .description{
+        font-size: 10px;
+    }
+}
+
+.Global .c1 .description{
+    padding-top: 20px;
+    text-align: center;
+    font-size: 20px;
+    color: white;   
+    font-family: "Nunito", sans-serif;
+    width: 100%;
+    height: 20px;
+    margin-top: -30px;
+
+}
+@media screen and (max-width : 768px) {
+    
+    .Global .c1 .description{
+        font-size: 10px;
+    }
+}
+
+.Global .world-stats{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}

@@ -1,0 +1,50 @@
+.worldStats-box{
+    height: 100%;
+    width: 250px;
+    float: left;
+    margin-right: 80px;
+}
+
+.totalNumbers{
+    font-size: 25px;
+    color: white;
+    font-weight: 700 !important;
+    font-family: 'Nunito';
+    width: 100%;
+    text-align: center;
+    margin-top: 30%;
+}
+
+.about{
+    width: 100%;
+    text-align: center;
+    color: rgba(255, 255, 255,  0.8);
+    margin-top: 5px;
+    font-size: 10px;
+    font-family: 'Nunito';
+
+}
+
+.today{
+    text-align: center;
+    color: #E900FF;
+}
+
+@media screen and (max-width : 768px) {
+    
+    .worldStats-box{
+    height: 100%;
+    width: 200px;
+    float: left;
+    margin-right: 40px;
+    }
+    .totalNumbers{
+        font-size: 15px;
+        color: white;
+        font-weight: 700 !important;
+        font-family: 'Nunito';
+        width: 100%;
+        text-align: center;
+        margin-top: 30%;
+    }
+}

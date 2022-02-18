@@ -1,0 +1,40 @@
+.countryDetails{
+    height: 90px;
+    width: 90%;
+    border-bottom: 1px solid lightgrey;
+    margin: auto;
+    padding-bottom: 1em !important;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+h4{
+    color: white;
+    text-decoration: none;
+    background-color: transparent;
+    font-family: "Nunito";
+}
+
+p{
+    color: #E900FF;
+    font-weight: 400;
+    font-size: 10px;
+    font-family: "Nunito"
+}
+
+p strong{
+    color: whitesmoke;
+}
+
+h5{
+    color: #FFC600;
+    margin-top: 5px;
+    margin-left: 5%;
+}
+
+@media screen and (max-width: 768px) {
+    h4{
+        font-size: 12px;
+    }
+}
